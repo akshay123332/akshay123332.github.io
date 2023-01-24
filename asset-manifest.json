@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.96a99b76.js",
+    "main.js": "/static/js/main.2bc3e390.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/airtable.png.png": "/static/media/airtable.png.005cdd2a79c14659984b.png",
     "static/media/urbanclone.png.png": "/static/media/urbanclone.png.89697cb461e29c498738.png",
+    "static/media/AKSHAY_KUMAR_RESUME.pdf": "/static/media/AKSHAY_KUMAR_RESUME.7b240f43c5c6c9e47e1c.pdf",
     "static/media/jefit.png.png": "/static/media/jefit.png.9362752083b4400879f7.png",
-    "static/media/Akshay-Kumar-Resume.pdf": "/static/media/Akshay-Kumar-Resume.1bb8f9419ea9d5fb1cdf.pdf",
+    "static/media/lenscart.png.png": "/static/media/lenscart.png.3a06228662c6e7e19e37.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.96a99b76.js.map": "/static/js/main.96a99b76.js.map",
+    "main.2bc3e390.js.map": "/static/js/main.2bc3e390.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.96a99b76.js"
+    "static/js/main.2bc3e390.js"
   ]
 }
