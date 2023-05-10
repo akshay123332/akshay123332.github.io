@@ -1,7 +1,7 @@
 import "./navbar.css";
 import {HamburgerIcon} from '@chakra-ui/icons'
 import React from 'react'
-import Resume from "../downloads/Shivkant_Dubey_Resume.pdf"
+import Resume from "../downloads/AKSHAY_KUMAR_RESUME.pdf"
 // import {NavLink} from "react-router-dom"
 import { Menu,MenuButton,MenuList,MenuItem,IconButton, Flex,Link } from "@chakra-ui/react";
 import {FcAbout} from 'react-icons/fc'
@@ -18,7 +18,7 @@ import ThemeToggler from "../components/ThemeToggler";
 const Navbar = () => {
   return (
     <Flex bgColor={'gray.400'} className="navbar" id={'nav-menu'}>
-         <div id="name">Shivkant Dubey</div>
+         <div id="name">Akshay Kumar</div>
         <div className="options">
         
         <div className="nav-link home"><NavLink to="#home"><HiHome/>Home</NavLink></div>
@@ -29,9 +29,9 @@ const Navbar = () => {
         {/* <div className="nav-link resume"><NavLink to="#resume-button-1"><RiContactsFill />Resume</NavLink></div> */}
         <div id={'resume-button-1'} onClick={() => {
                   window.open(
-                    "https://drive.google.com/file/d/1-mavXJADg6YAZ238dOZnevFlbx6RsWay/view?usp=share_link"
+                    "https://drive.google.com/file/d/1K5fzee5CS54gpT3J5SMUHI07Mw3Ahomn/view?usp=share_link"
                   );
-                }} className="nav-link resume"><a id='resume-link-1'  href={Resume} download={'Shivkant_Dubey_Resume'}><ImDownload/>Resume</a></div>
+                }} className="nav-link resume"><a id='resume-link-1'  href={Resume} download={'AKSHAY_KUMAR_RESUME'}><ImDownload/>Resume</a></div>
         {/* <Resume/> */}
         </div>
         <div id="ham_icon">
@@ -55,7 +55,7 @@ const Navbar = () => {
                 <NavLink to="/contacts"><MenuItem icon={<RiContactsFill />}>
                     Contacts
                 </MenuItem></NavLink>
-                <a href={Resume} download={'Shivkant_Dubey_Resume'} ><MenuItem icon={<ImDownload/>}>
+                <a href={Resume} download={'AKSHAY_KUMAR_RESUME'} ><MenuItem icon={<ImDownload/>}>
                     Resume
                 </MenuItem></a>
             </MenuList>

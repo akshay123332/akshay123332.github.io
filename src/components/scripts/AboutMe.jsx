@@ -1,7 +1,7 @@
 import React from 'react'
 import { Text,Box, Flex, HStack,Icon, Link, Divider, Grid, Spacer, Heading, Button } from '@chakra-ui/react';
 import '../../global.css'
-import Resume from "../../downloads/Shivkant_Dubey_Resume.pdf"
+import Resume from "../../downloads/AKSHAY_KUMAR_RESUME.pdf"
 import styles from  "../styles/aboutme.module.css"
 import {FaGithub,FaGoogle,FaInstagram,FaLinkedinIn} from "react-icons/fa"
 import TypeWriterEffect from "react-typewriter-effect"
@@ -17,12 +17,12 @@ const AboutMe = () => {
     <Flex justifyContent={'center'}  className={styles.about}  >
 		<div id={styles.profile_card}>
 			<div id='profile_pic'>
-				<img className='home-img' src="https://avatars.githubusercontent.com/u/107461174?s=400&u=c8072d4e15a3869a29398b63a6e3be5b5f3edb40&v=4" alt='profile_pic'/>
+				<img className='home-img' src="https://avatars.githubusercontent.com/u/107462235?v=4" alt='profile_pic'/>
 			</div>
-      <a id={'resume-button-2'} href={Resume} download={'Shivkant_Dubey_Resume'}>
+      <a id={'resume-button-2'} href={Resume} download={'AKSHAY_KUMAR_RESUME'}>
       <Button w='130px' gap='5px' onClick={() => {
                   window.open(
-                    "https://drive.google.com/file/d/1-mavXJADg6YAZ238dOZnevFlbx6RsWay/view?usp=share_link"
+                    "https://drive.google.com/file/d/1K5fzee5CS54gpT3J5SMUHI07Mw3Ahomn/view?usp=share_link"
                   );
                 }}><ImDownload/>Resume
       </Button>
@@ -37,7 +37,7 @@ const AboutMe = () => {
 
   id='user-detail-name'
 >
-  Shivkant Dubey
+  Akshay Kumar
 </Text>
       <TypeWriterEffect
         textStyle={{
@@ -63,10 +63,9 @@ const AboutMe = () => {
       Technically Proficient in React, Javascript, HTML, CSS etc...
 			</Text>
       <HStack spacing={'24'} ml={'30px'}>
-        <Link id='contact-github' href='https://github.com/skd0394' alt={'git_hub'} isExternal><Icon as={FaGithub} boxSize='50'  /></Link>
-        <Link id='contact-linkedin' href='https://www.linkedin.com/in/shiv-kant-dubey-94334b245/' alt={'git_hub'} isExternal><Icon as={FaLinkedinIn} boxSize='50'  /></Link>
-        <Link id='contact-Insta' href='https://www.instagram.com/sh_iv6317/' alt={'git_hub'} isExternal><Icon as={FaInstagram} boxSize='50'  /></Link>
-        <Link id='contact-email' href='https://github.com/skd0394' alt={'git_hub'} isExternal ><Icon as={MdDocumentScanner} boxSize='50'  /></Link>
+        <Link id='contact-github' href='https://github.com/akshay123332' alt={'git_hub'} isExternal><Icon as={FaGithub} boxSize='50'  /></Link>
+        <Link id='contact-linkedin' href='https://www.linkedin.com/in/akshay-kumar-b33793227/' alt={'git_hub'} isExternal><Icon as={FaLinkedinIn} boxSize='50'  /></Link>
+        <Link id='contact-email' href='https://github.com/akshay123332' alt={'git_hub'} isExternal ><Icon as={MdDocumentScanner} boxSize='50'  /></Link>
       </HStack>
     </Grid> 
 	</Flex>

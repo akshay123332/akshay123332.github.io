@@ -21,16 +21,16 @@ const Contacts = () => {
                       <Link href='*'>
                         <Flex id='contact-email' gap="5px"  >
                           <MdEmail/>
-                          <Text>shivkd1908@gmail.com</Text>
+                          <Text>akshaykumar994687@gmail.com</Text>
                         </Flex>
                       </Link>
-                      <Link href='*'>
+                      <Link href='https://www.linkedin.com/in/akshay-kumar-b33793227/'>
                         <Flex gap="5px" >
                           <BsLinkedin/>
                           <Text>LinkedIn</Text>
                         </Flex>
                       </Link>
-                      <Link href='*'>
+                      <Link href='https://github.com/akshay123332'>
                         <Flex gap="5px">
                           <TfiGithub/>
                           <Text>GitHub</Text>
@@ -38,7 +38,7 @@ const Contacts = () => {
                       </Link>
                       <Flex gap="5px" id='contact-phone' >
                         <BsFillTelephoneFill/>
-                        <Text>+91 8542000179</Text>
+                        <Text>+91 9633375384</Text>
                       </Flex>
                   </Flex>
                 </Flex>
